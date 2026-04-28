@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local config and secrets
+.env
+.env.*
+secrets.toml
+.streamlit/secrets.toml
+
+# Fiscal/source data and generated exports
+*.zip
+*.xml
+*.xlsx
+*.xls
+!modelo*.xlsx
+!base_*modelo*.xlsx
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
